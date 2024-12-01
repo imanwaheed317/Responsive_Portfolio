@@ -2,8 +2,7 @@
 import MagicButton from "@/component/ui/MagicButton";
 import { TextGenerateEffect } from "@/component/ui/TextGenerateEffect"
 import {Spotlight} from '@/component/ui/Spotlight' 
-import Image from 'next/image';
-import { FaArrowRight } from 'react-icons/fa';
+// import { FaArrowRight } from 'react-icons/fa';
 
 
 const Hero = () => {
