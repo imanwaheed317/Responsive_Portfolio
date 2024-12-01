@@ -2,7 +2,13 @@ import React from 'react';
 import ContactForm from './ContactForm';
 import ContactInfo from './ContactInfo';
 
-const contactData = {
+type CountryData = {  // Define the type
+  phone: string;
+  email: string;
+  address: string;
+};
+
+const countryData: CountryData = {  // Define the variable with CountryData type
   phone: '000-123-987',
   email: 'info@info.com',
   address: 'Sindh, PAKISTAN',
@@ -18,7 +24,7 @@ const Contact = () => {
         </div>
         {/* CONTACT INFO */}
         <div className="xl mx-auto">
-          <ContactInfo contactData={contactData} />
+          <ContactInfo contactData={countryData} /> {/* Pass countryData to the component */}
         </div>
       </div>
     </div>

@@ -2,13 +2,13 @@ import React from 'react';
 import { FaPhoneVolume, FaEnvelope } from 'react-icons/fa';
 import { TiHome } from 'react-icons/ti';
 
-type ContactData = {
-  phone: number;
+type contactData = {
+  phone: string;
   email: string;
   address: string;
 };
 
-const ContactInfo = ({ contactData }: { contactData: ContactData }) => {
+const ContactInfo = ({ contactData }: { contactData: contactData }) => {
   return (
     <div>
       {/* Phone Section */}
